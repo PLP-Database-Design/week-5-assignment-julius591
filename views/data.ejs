@@ -1,0 +1,17 @@
+<table>
+    <thead>
+        <tr>
+            <th>Patient Id</th>
+            <th>First name</th>
+            <th>Last name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <%results. forEach(row =>{%>
+        <tr>
+            <td><%= row.patient_id %></td>
+            <td><%= row.first_name %></td>
+            <td><%= row.last_name %></td>
+        </tr><%});>
+    </tbody>
+</table>
